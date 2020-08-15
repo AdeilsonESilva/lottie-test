@@ -7,7 +7,11 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.container}>
-        <LottieView source={require('./animation.json')} autoPlay loop />
+        <LottieView
+          source={require('./29435-random-things.json')}
+          autoPlay
+          loop
+        />
       </SafeAreaView>
     </>
   );
